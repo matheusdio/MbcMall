@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1CD8E82AB0FC1A007D5B5B /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CD8E72AB0FC1A007D5B5B /* ShopViewController.swift */; };
+		2F1CD8EA2AB100C3007D5B5B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CD8E92AB100C3007D5B5B /* Store.swift */; };
+		2F1CD8EC2AB1013C007D5B5B /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CD8EB2AB1013B007D5B5B /* StoreCollectionViewCell.swift */; };
+		2FD3C18E2BB2058000427B07 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3C18D2BB2058000427B07 /* NewsViewController.swift */; };
+		2FD3C1902BB2063A00427B07 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3C18F2BB2063A00427B07 /* SupportViewController.swift */; };
+		2FD3C1922BB4C55A00427B07 /* ItemsByCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3C1912BB4C55A00427B07 /* ItemsByCategory.swift */; };
 		2FF56EA82A685E690016EE2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EA72A685E690016EE2C /* AppDelegate.swift */; };
 		2FF56EAA2A685E690016EE2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EA92A685E690016EE2C /* SceneDelegate.swift */; };
 		2FF56EAC2A685E690016EE2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EAB2A685E690016EE2C /* ViewController.swift */; };
-		2FF56EAF2A685E690016EE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF56EAD2A685E690016EE2C /* Main.storyboard */; };
 		2FF56EB12A685E6A0016EE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF56EB02A685E6A0016EE2C /* Assets.xcassets */; };
 		2FF56EB42A685E6A0016EE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF56EB22A685E6A0016EE2C /* LaunchScreen.storyboard */; };
 		2FF56EBF2A685E6B0016EE2C /* MbcMallAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EBE2A685E6B0016EE2C /* MbcMallAppTests.swift */; };
 		2FF56EC92A685E6B0016EE2C /* MbcMallAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EC82A685E6B0016EE2C /* MbcMallAppUITests.swift */; };
 		2FF56ECB2A685E6B0016EE2C /* MbcMallAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56ECA2A685E6B0016EE2C /* MbcMallAppUITestsLaunchTests.swift */; };
+		2FF56EDA2A6EF8560016EE2C /* mbcOptionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56ED92A6EF8560016EE2C /* mbcOptionsCollectionViewCell.swift */; };
+		2FF56EDF2A71A6620016EE2C /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56EDE2A71A6620016EE2C /* Posts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1CD8E72AB0FC1A007D5B5B /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		2F1CD8E92AB100C3007D5B5B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		2F1CD8EB2AB1013B007D5B5B /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FD3C18D2BB2058000427B07 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		2FD3C18F2BB2063A00427B07 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		2FD3C1912BB4C55A00427B07 /* ItemsByCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsByCategory.swift; sourceTree = "<group>"; };
 		2FF56EA42A685E690016EE2C /* MbcMallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MbcMallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF56EA72A685E690016EE2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF56EA92A685E690016EE2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2FF56EAB2A685E690016EE2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FF56EAE2A685E690016EE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FF56EB02A685E6A0016EE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF56EB32A685E6A0016EE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF56EB52A685E6A0016EE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		2FF56EC42A685E6B0016EE2C /* MbcMallAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MbcMallAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF56EC82A685E6B0016EE2C /* MbcMallAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbcMallAppUITests.swift; sourceTree = "<group>"; };
 		2FF56ECA2A685E6B0016EE2C /* MbcMallAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbcMallAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FF56ED92A6EF8560016EE2C /* mbcOptionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbcOptionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FF56EDE2A71A6620016EE2C /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,10 @@
 		2FF56EA62A685E690016EE2C /* MbcMallApp */ = {
 			isa = PBXGroup;
 			children = (
+				2FF56EDB2A71A6000016EE2C /* Model */,
+				2FF56ED72A6ED32C0016EE2C /* View */,
 				2FF56EA72A685E690016EE2C /* AppDelegate.swift */,
 				2FF56EA92A685E690016EE2C /* SceneDelegate.swift */,
-				2FF56EAB2A685E690016EE2C /* ViewController.swift */,
-				2FF56EAD2A685E690016EE2C /* Main.storyboard */,
 				2FF56EB02A685E6A0016EE2C /* Assets.xcassets */,
 				2FF56EB22A685E6A0016EE2C /* LaunchScreen.storyboard */,
 				2FF56EB52A685E6A0016EE2C /* Info.plist */,
@@ -125,6 +139,37 @@
 				2FF56ECA2A685E6B0016EE2C /* MbcMallAppUITestsLaunchTests.swift */,
 			);
 			path = MbcMallAppUITests;
+			sourceTree = "<group>";
+		};
+		2FF56ED72A6ED32C0016EE2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF56ED82A6EF8120016EE2C /* Cell */,
+				2FF56EAB2A685E690016EE2C /* ViewController.swift */,
+				2F1CD8E72AB0FC1A007D5B5B /* ShopViewController.swift */,
+				2FD3C18D2BB2058000427B07 /* NewsViewController.swift */,
+				2FD3C18F2BB2063A00427B07 /* SupportViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FF56ED82A6EF8120016EE2C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FF56ED92A6EF8560016EE2C /* mbcOptionsCollectionViewCell.swift */,
+				2F1CD8EB2AB1013B007D5B5B /* StoreCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2FF56EDB2A71A6000016EE2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FF56EDE2A71A6620016EE2C /* Posts.swift */,
+				2F1CD8E92AB100C3007D5B5B /* Store.swift */,
+				2FD3C1912BB4C55A00427B07 /* ItemsByCategory.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +278,6 @@
 			files = (
 				2FF56EB42A685E6A0016EE2C /* LaunchScreen.storyboard in Resources */,
 				2FF56EB12A685E6A0016EE2C /* Assets.xcassets in Resources */,
-				2FF56EAF2A685E690016EE2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1CD8EA2AB100C3007D5B5B /* Store.swift in Sources */,
 				2FF56EAC2A685E690016EE2C /* ViewController.swift in Sources */,
 				2FF56EA82A685E690016EE2C /* AppDelegate.swift in Sources */,
+				2F1CD8E82AB0FC1A007D5B5B /* ShopViewController.swift in Sources */,
+				2F1CD8EC2AB1013C007D5B5B /* StoreCollectionViewCell.swift in Sources */,
+				2FF56EDF2A71A6620016EE2C /* Posts.swift in Sources */,
+				2FD3C18E2BB2058000427B07 /* NewsViewController.swift in Sources */,
+				2FF56EDA2A6EF8560016EE2C /* mbcOptionsCollectionViewCell.swift in Sources */,
+				2FD3C1902BB2063A00427B07 /* SupportViewController.swift in Sources */,
 				2FF56EAA2A685E690016EE2C /* SceneDelegate.swift in Sources */,
+				2FD3C1922BB4C55A00427B07 /* ItemsByCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FF56EAD2A685E690016EE2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FF56EAE2A685E690016EE2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FF56EB22A685E6A0016EE2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,11 +483,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XG5AARXYZ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MbcMallApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,11 +510,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XG5AARXYZ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MbcMallApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

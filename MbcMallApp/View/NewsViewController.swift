@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  NewsViewController.swift
 //  MbcMallApp
 //
-//  Created by Matheus Dionísio on 19/07/23.
+//  Created by Matheus Dionísio on 25/03/24.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class NewsViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
 
 }
-
